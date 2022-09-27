@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Naughty_Note.exe" version="1.0.0.1" publicKeyToken="fb927c07bdc20bcb" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="notepad.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Naughty_Note" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Naughty_Note.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.52.dll" size="225792">
+      <assemblyIdentity name="Bunifu_UI_v1.52" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J8jOp+eTrOc3QViBpcFrTi2YzkZgnScugsbJBa0tnzY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="353280">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wsEtMbSETineMVlPyWMqNypVNjHeCgoEyK+RZo43z0k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Naughty_Note.exe" size="175072">
+      <assemblyIdentity name="Naughty_Note" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>U465rd6v7HsZo7YNG3LZR9vM7OG+ACS78Kx1ui7WTuA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Naughty_Note.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="notepad.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HCO3Nd0RnlN1dKpXwk10UVvyWvoBuhBDpW53+nshMyU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-98PKSBI\moham" issuerKeyHash="cb77ee15f7b72d8b5d11f86c15d3d4020d680526" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6ZaUuByA+C7yPieiCE/Lsn9hs11X/XjkGeEV/gmY6MM=</DigestValue></Reference></SignedInfo><SignatureValue>tYnysuRj90C7E19hS4GQN933MODnULt8fh0ntVzhOvwLwFkImx+Qk0MfQBSoqbAlsEI/L2O5tx27yQeLXdnulj1wYTvmveeP/9P5M5Co0iYwJ6UdRL7w+GOllCs7KTrKdIHRxQGNpL6PXTMAbjLfR/SXSsUjJfJy7qfXWKvrDgU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>z88ApTSHDdm7ZbJ5ubkGB1C65K1TBDv1mrz1doFFAt9Wb4X04qiVL+ewLi8/Z2Ez0M4ADCS0C+F5h7AJToqnIhJaC3dQJ5A9d0X7gzGp80voKiqc0xri77Yui/CIoopuf2jRCXOPZvPcjpPOQEKl9DG355TxZDWFzIuiTzgSc80=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c3e89809fe15e119e478fd575db3617fb2cb4f08a2273ef22ef8801cb89496e9" Description="" Url=""><as:assemblyIdentity name="Naughty_Note.exe" version="1.0.0.1" publicKeyToken="fb927c07bdc20bcb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-98PKSBI\moham</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DLQH0nOUDQJvjS5CdpaG0abk0SSeEQTAVeuDjBwEdrE=</DigestValue></Reference></SignedInfo><SignatureValue>ngwNNSfkQbEa5IJ1Xay8FwX184yyy2tbkHbMd6r/sSeax2GpWvmIZOKB5HN2PZavrf8fZR8cANvY2EDA8xH5VHwNrd28e1PnR6/OUbJj5GyERNOoFqmXQo/5B9Crh4fhj5i3rwjSsjJ0ba53Po7DppPBesIB86SfEaAt2RlBQZ8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>z88ApTSHDdm7ZbJ5ubkGB1C65K1TBDv1mrz1doFFAt9Wb4X04qiVL+ewLi8/Z2Ez0M4ADCS0C+F5h7AJToqnIhJaC3dQJ5A9d0X7gzGp80voKiqc0xri77Yui/CIoopuf2jRCXOPZvPcjpPOQEKl9DG355TxZDWFzIuiTzgSc80=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQKep0MZXEeqBGakQsGYQc6DANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADkAOABQAEsAUwBCAEkAXABtAG8AaABhAG0wHhcNMjIwNjE0MTEzNjI2WhcNMjMwNjE0MTczNjI2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADkAOABQAEsAUwBCAEkAXABtAG8AaABhAG0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM/PAKU0hw3Zu2Wyebm5BgdQuuStUwQ79Zq89XaBRQLfVm+F9OKolS/nsC4vP2dhM9DOAAwktAvheYewCU6KpyISWgt3UCeQPXdF+4MxqfNL6CoqnNMa4u+2LovwiKKKbn9o0Qlzj2bz3I6TzkBCpfQxt+eU8WQ1hcyLok84EnPNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAb4TzQO7UudP/qxgDwurNGtAmGgVcbds8QV1Rx+uXD/BB/ie2S4daLwG1zaxJPDREos/N1roDAwo09Zj3etjRZge73qTG8vZ66GTsv8cm6rijsZmbB+ZyiKJyWJTLlLV6hpIk1dH93T/tDDSMFjWqldwxlqOmUsRbb2APpPci7VQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

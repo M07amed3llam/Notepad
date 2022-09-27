@@ -1,0 +1,35 @@
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\bin\Debug\Naughty_Note.exe.config
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\bin\Debug\Naughty_Note.exe
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\bin\Debug\Naughty_Note.pdb
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\bin\Debug\MetroFramework.dll
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\obj\Debug\Naughty_Note.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\obj\Debug\Naughty_Note.Form1.resources
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\obj\Debug\Naughty_Note.Properties.Resources.resources
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\obj\Debug\Naughty_Note.csproj.GenerateResource.cache
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\obj\Debug\Naughty_Note.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\obj\Debug\Naughty_Note.csproj.CopyComplete
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\obj\Debug\Naughty_Note.exe
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\obj\Debug\Naughty_Note.pdb
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\obj\Debug\Naughty_Note.About.resources
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\bin\Debug\Naughty_Note.exe.manifest
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\bin\Debug\Naughty_Note.application
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\obj\Debug\Naughty_Note.exe.manifest
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\obj\Debug\Naughty_Note.application
+C:\Users\moham\source\repos\Naughty_Note\Naughty_Note\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\moham\source\repos\My Note\Naughty_Note\bin\Debug\Naughty_Note.exe.config
+C:\Users\moham\source\repos\My Note\Naughty_Note\bin\Debug\Naughty_Note.exe.manifest
+C:\Users\moham\source\repos\My Note\Naughty_Note\bin\Debug\Naughty_Note.application
+C:\Users\moham\source\repos\My Note\Naughty_Note\bin\Debug\Naughty_Note.exe
+C:\Users\moham\source\repos\My Note\Naughty_Note\bin\Debug\Naughty_Note.pdb
+C:\Users\moham\source\repos\My Note\Naughty_Note\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\moham\source\repos\My Note\Naughty_Note\obj\Debug\Naughty_Note.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\My Note\Naughty_Note\obj\Debug\Naughty_Note.About.resources
+C:\Users\moham\source\repos\My Note\Naughty_Note\obj\Debug\Naughty_Note.Form1.resources
+C:\Users\moham\source\repos\My Note\Naughty_Note\obj\Debug\Naughty_Note.Properties.Resources.resources
+C:\Users\moham\source\repos\My Note\Naughty_Note\obj\Debug\Naughty_Note.csproj.GenerateResource.cache
+C:\Users\moham\source\repos\My Note\Naughty_Note\obj\Debug\Naughty_Note.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\My Note\Naughty_Note\obj\Debug\Naughty_Note.exe.manifest
+C:\Users\moham\source\repos\My Note\Naughty_Note\obj\Debug\Naughty_Note.application
+C:\Users\moham\source\repos\My Note\Naughty_Note\obj\Debug\Naughty_Note.csproj.CopyComplete
+C:\Users\moham\source\repos\My Note\Naughty_Note\obj\Debug\Naughty_Note.exe
+C:\Users\moham\source\repos\My Note\Naughty_Note\obj\Debug\Naughty_Note.pdb
